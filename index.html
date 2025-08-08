@@ -11,31 +11,15 @@
     <title>Шахматный турнир</title>
   </head>
   <body>
-    <header class="header">
-      <div class="header__container">
-        <a href="/" class="header__logo">
-          <picture>
-            <source srcset="/assets/svg/logo.svg" media="(max-width: 610px)" />
-            <img src="/assets/svg/logo.svg" alt="tournament" />
-          </picture>
-        </a>
-        <div class="header__content">
-          <h1 class="header__title">
-            Превратите уездный город
-            <div class="header__title-middle">в столицу</div>
-            <div class="header__title-end">земного шара</div>
-          </h1>
-          <p class="header__description">
-            Оплатите взнос на телеграммы для организации Международного васюкинского турнира по шахматам
-          </p>
-          <div class="header__btns">
-            <a href="#" class="header__btn header__btn-idea">Поддержать шахматную мысль</a>
-            <a href="#" class="header__btn header__btn-tournament">Подробнее о турнире</a>
-          </div>
-        </div>
-      </div>
-    </header>
-    <div class="container"></div>
+    <pug src="src/components/header.pug" />
+    <pug src="src/components/marquee.pug" />
+    <div class="container">
+      <pug src="src/components/tournament.pug" />
+      <pug src="src/components/stages.pug" />
+      <pug src="src/components/participants.pug" />
+    </div>
+    <pug src="src/components/marquee.pug" />
+    <pug src="src/components/footer.pug" />
 
     <script type="module" defer src="./src/app.js"></script>
   </body>

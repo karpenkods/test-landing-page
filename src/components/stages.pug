@@ -1,0 +1,54 @@
+section#stages.stages
+  h2.stages__title
+    | Этапы преображения Васюков
+    span Будущие источники обогащения васюкинцев
+  .stages__cards.swiper.js-stages-swiper
+    .stages__wrapper.swiper-wrapper
+      .stages__card.swiper-slide
+        .stages__card-desktop
+          .stages__card-number 1
+          p.stages__card-text Строительство железнодорожной магистрали Москва-Васюки
+        .stages__card-mobile
+          .stages__card-number 2
+          p.stages__card-text Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов
+      .stages__card.swiper-slide
+        .stages__card-number 2
+        p.stages__card-text Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов
+      .stages__card.swiper-slide
+        .stages__card-number 3
+        p.stages__card-text
+          | Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей, фруктов, икры,
+          | шоколадных конфет
+      .stages__card.swiper-slide
+        .stages__card-desktop
+          .stages__card-number 4
+          p.stages__card-text Строительство дворца для турнира
+        .stages__card-mobile
+          .stages__card-number 5
+          p.stages__card-text Размещение гаражей для гостевого автотранспорта
+      .stages__card.swiper-slide
+        .stages__card-number 5
+        p.stages__card-text Размещение гаражей для гостевого автотранспорта
+      .stages__card.swiper-slide
+        .stages__card-number 6
+        p.stages__card-text
+          | Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов
+      .stages__card.swiper-slide
+        .stages__card-number 7
+        p.stages__card-text
+          | Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых самолётов и дирижаблей во все
+          | концы света, включая Лос-Анжелос и Мельбурн
+  .stages__slider-control
+    .stages__slider-prev.swiper-button-prev
+      svg(width='44', height='44', viewBox='0 0 44 44', fill='none', xmlns='http://www.w3.org/2000/svg')
+        circle(cx='22', cy='22', r='22', transform='rotate(-180 22 22)', fill='#313131')
+        path(d='M24.5382 30.4615L16.0767 21.9999L24.5382 13.5384', stroke='white', stroke-width='2', stroke-linecap='square')
+    .stages__slider-pagination.swiper-pagination
+    .stages__slider-next.swiper-button-next
+      svg(width='44', height='44', viewBox='0 0 44 44', fill='none', xmlns='http://www.w3.org/2000/svg')
+        circle(cx='22', cy='22', r='22', fill='#313131')
+        path(d='M19.4618 13.5384L27.9233 21.9999L19.4618 30.4615', stroke='white', stroke-width='2', stroke-linecap='square')
+  .stages__img
+    picture
+      source(srcset='/assets/img/airplane.png', media='(max-width: 610px)')
+      img(src='/assets/img/airplane.png', alt='airplane')

@@ -1,0 +1,16 @@
+header.header
+  .header__container
+    a.header__logo(href='/')
+      picture
+        source(srcset='/assets/svg/logo.svg', media='(max-width: 610px)')
+        img(src='/assets/svg/logo.svg', alt='tournament')
+    .header__content
+      h1.header__title
+        | Превратите уездный город
+        .header__title-middle в столицу
+        .header__title-end земного шара
+      p.header__description
+        | Оплатите взнос на телеграммы для организации Международного васюкинского турнира по шахматам
+      .header__btns
+        a.header__btn.header__btn-idea(href='#tournament') Поддержать шахматную мысль
+        a.header__btn.header__btn-tournament(href='#stages') Подробнее о турнире

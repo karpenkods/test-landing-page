@@ -9,6 +9,7 @@
   --blue-text: #3057a2;
   --btn-black: #1f1f1f;
   --btn-yellow: #fbce51;
+  --btn-bullet: #d9d9d9;
   --white: #fff;
 
   --time: ease-in-out 0.3s;
@@ -56,6 +57,7 @@ h6 {
   padding: 0;
   font-family: var(--font-family-title);
   text-transform: uppercase;
+  line-height: 2px;
 }
 
 p,
@@ -116,6 +118,11 @@ button {
   display: flex;
   flex-direction: column;
   gap: 20rem;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: '';
 }
 
 @include breakpoint(sm) {

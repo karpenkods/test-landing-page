@@ -34,7 +34,7 @@
     max-width: 54.2rem;
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 2.4rem;
   }
 
   &__title {
@@ -50,6 +50,7 @@
   }
 
   &__description {
+    margin-bottom: 1.5rem;
     text-align: center;
     font-size: 1.8rem;
     line-height: 130%;
@@ -133,9 +134,29 @@
       height: 4.7rem;
       &-idea {
         padding: 0;
+
+        &:hover {
+          background: var(--btn-black);
+          color: var(--white);
+        }
+        &:active {
+          background: var(--btn-yellow);
+          color: var(--btn-black);
+        }
       }
       &-tournament {
         padding: 0;
+        background: var(--white);
+        border: none;
+        &:hover {
+          background: var(--white);
+          color: var(--btn-black);
+          border: none;
+        }
+        &:active {
+          background: var(--btn-black);
+          color: var(--white);
+        }
       }
     }
   }
