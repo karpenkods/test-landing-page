@@ -12,6 +12,7 @@
     font-weight: 400;
     line-height: 120%;
     & span {
+      margin-left: 2rem;
       max-width: 28rem;
       display: inline-block;
       font-family: var(--font-family);
@@ -103,6 +104,7 @@
       font-size: 3.6rem;
       line-height: 110%;
       & span {
+        margin-left: 0;
         margin-top: 1.2rem;
         max-width: 100%;
         font-size: 1.8rem;
